@@ -1,0 +1,60 @@
+/* ID Selector */
+#myid {
+    color: blue;
+    font-size: 32px;
+    text-align: center;
+}
+
+/* Class Selector */
+.myid1 {
+    color: green;
+    font-size: 28px;
+    text-align: left;
+}
+
+/* Grouping ID Selector for <h2>, <h3> and <h4> */
+#myid3, #myid4, #myid5 {
+    color: red;
+    font-size: 24px;
+    text-align: right;
+}
+
+/* Specific Element Selector (ID) */
+#myid6 {
+    color: orange;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Universal Element Selector (applies to the whole page) */
+#myid7 {
+    color: purple;
+    font-size: 20px;
+    text-decoration: underline;
+    text-align: left;
+}
+
+/* Text Properties */
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}
+
+b {
+    color: darkred;
+    font-size: 18px;
+}
+
+i {
+    color: darkblue;
+    font-style: italic;
+}
+
+ins {
+    background-color: yellow;
+    text-decoration: none; /* Removes default underline */
+    font-weight: bold;
+    color: black;
+}
